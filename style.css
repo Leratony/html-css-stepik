@@ -1,0 +1,27 @@
+main {
+    background-color: #1E1F29;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: #FAFAFA;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+label {
+    color: #AFB2BF;
+    font-size: 12px;
+}
+
+input,
+select,
+textarea {
+    background-color: #2E2D3D;
+    color: #FAFAFA;
+}
+
+button {
+    background-color: #6C38CC;
+    color: #FAFAFA;
+}

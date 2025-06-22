@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>demo</title>
+    <link rel="stylesheet" href="./style.css">
 
 </head>
 
@@ -12,15 +13,23 @@
         <h1>Свяжитесь со мной</h1>
         <form action="/contact" method="get">
             <div>
-                <label for="email">E-mail*</label>
+                <div>
+                    <label for="email">E-mail*</label>
+                </div>
                 <input type="text" placeholder="123@gmail.com" id="email" name="email" required>
             </div>
             <div>
-                <label for="telegram">Telegtam</label>
+                <div>
+                    <label for="telegram">Telegtam</label>
+                </div>
+
                 <input type="text" placeholder="123@gmail.com" name="telegram" id="telegram">
             </div>
             <div>
-                <label for="courses">Тема*</label>
+                <div>
+                    <label for="courses">Тема*</label>
+                </div>
+
                 <select placeholder="Приобретение курсов" name="courses" id="courses">
                     <option value="courses1">Курс 1</option>
                     <option value="courses2">Курс 2</option>
@@ -29,7 +38,9 @@
             </div>
 
             <div>
-                <label for="text">Комментарий</label>
+                <div>
+                    <label for="text">Комментарий</label>
+                </div>
                 <textarea name="comment" id="comment" cols="100" rows="5"
                     placeholder="Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета. Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета."></textarea>
             </div>
